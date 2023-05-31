@@ -1,0 +1,149 @@
+{
+ "id": "103",
+ "label": "Software design patterns",
+ "group": 0,
+ "children": [
+  {
+   "id": "pg3437",
+   "label": "Model\u2013view\u2013viewmodel",
+   "group": 1,
+   "children": [
+    {
+     "id": "tp721",
+     "label": "mvvm",
+     "children": [
+      {
+       "id": "tp2804",
+       "label": "mvvm",
+       "children": [
+        {
+         "id": "rp3412",
+         "label": "Blankj/AndroidUtilCode",
+         "group": 4
+        },
+        {
+         "id": "rp43593",
+         "label": "afollestad/material-dialogs",
+         "group": 4
+        },
+        {
+         "id": "rp66607",
+         "label": "youth5201314/banner",
+         "group": 4
+        },
+        {
+         "id": "rp132857",
+         "label": "BeyondDimension/SteamTools",
+         "group": 4
+        },
+        {
+         "id": "rp147063",
+         "label": "hehonghui/android-tech-frontier",
+         "group": 4
+        }
+       ],
+       "group": 2
+      },
+      {
+       "id": "tp2805",
+       "label": "architecture",
+       "children": [
+        {
+         "id": "rp12916",
+         "label": "ryanmcdermott/clean-code-javascript",
+         "group": 4
+        },
+        {
+         "id": "rp169529",
+         "label": "binhnguyennus/awesome-scalability",
+         "group": 4
+        },
+        {
+         "id": "rp40701",
+         "label": "kamranahmedse/design-patterns-for-humans",
+         "group": 4
+        },
+        {
+         "id": "rp2337",
+         "label": "mingrammer/diagrams",
+         "group": 4
+        },
+        {
+         "id": "rp117227",
+         "label": "DovAmir/awesome-design-patterns",
+         "group": 4
+        }
+       ],
+       "group": 2
+      },
+      {
+       "id": "tp2806",
+       "label": "mvvm-android",
+       "children": [
+        {
+         "id": "rp33532",
+         "label": "amitshekhariitbhu/Android-Debug-Database",
+         "group": 4
+        },
+        {
+         "id": "rp129220",
+         "label": "KunMinX/Jetpack-MVVM-Best-Practice",
+         "group": 4
+        },
+        {
+         "id": "rp26821",
+         "label": "skydoves/Pokedex",
+         "group": 4
+        },
+        {
+         "id": "rp123674",
+         "label": "mxdldev/android-mvp-mvvm-flytour",
+         "group": 4
+        },
+        {
+         "id": "rp135062",
+         "label": "Foso/Jetpack-Compose-Playground",
+         "group": 4
+        }
+       ],
+       "group": 2
+      },
+      {
+       "id": "tp2807",
+       "label": "coroutines",
+       "children": [
+        {
+         "id": "rp153508",
+         "label": "ReactiveX/RxJava",
+         "group": 4
+        },
+        {
+         "id": "rp100452",
+         "label": "prettier/prettier",
+         "group": 4
+        },
+        {
+         "id": "rp61283",
+         "label": "google/iosched",
+         "group": 4
+        },
+        {
+         "id": "rp18720",
+         "label": "verekia/js-stack-from-scratch",
+         "group": 4
+        },
+        {
+         "id": "rp132199",
+         "label": "swoole/swoole-src",
+         "group": 4
+        }
+       ],
+       "group": 2
+      }
+     ],
+     "group": 2
+    }
+   ]
+  }
+ ]
+}

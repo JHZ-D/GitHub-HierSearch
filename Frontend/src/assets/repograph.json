@@ -1,0 +1,57 @@
+{
+    "nodes": [{
+        "id": "0",
+        "type": "circle",
+        "label": "vue.js"
+    },{
+        "id": "1",
+        "type": "circle",
+        "label": "opensource"
+    },{
+        "id": "2",
+        "type": "circle",
+        "label": "reporting"
+    },{
+        "id": "3",
+        "type": "circle",
+        "label": ".net"
+    },{
+        "id": "4",
+        "type": "circle",
+        "label": "netcore"
+    },{
+        "id": "5",
+        "label": "asp.net-mvc",
+        "type": "circle"
+    },{
+        "id": "6",
+        "label": "dotnet6",
+        "type": "circle"
+    },{
+        "id": "7",
+        "label": "NoneDay/CellReport",
+        "type": "rect"
+    }],
+    "edges": [{
+        "source": "0", 
+        "target": "7"
+    },{
+        "source": "1",
+        "target": "7"
+    },{
+        "source": "2",
+        "target": "7"
+    },{
+        "source": "3",
+        "target": "7"
+    },{
+        "source": "4",
+        "target": "7"
+    },{
+        "source": "5",
+        "target": "7"
+    },{
+        "source": "6",
+        "target": "7"
+    }]
+}

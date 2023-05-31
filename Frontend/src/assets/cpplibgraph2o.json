@@ -1,0 +1,181 @@
+{
+ "nodes": [
+  {
+   "id": "795",
+   "label": "C++ libraries",
+   "group": 0
+  },
+  {
+   "id": "pg20886",
+   "label": "Dlib",
+   "group": 1
+  },
+  {
+   "id": "pg20889",
+   "label": "Google Test",
+   "group": 1
+  },
+  {
+   "id": "pg20901",
+   "label": "OpenCV",
+   "group": 1
+  },
+  {
+   "id": "pg20907",
+   "label": "Snappy (compression)",
+   "group": 1
+  },
+  {
+   "id": "pg20911",
+   "label": "x265",
+   "group": 1
+  },
+  {
+   "id": "3031",
+   "label": "C++ Standard Library",
+   "group": 0
+  },
+  {
+   "id": "pg57193",
+   "label": "utility (C++)",
+   "group": 1
+  },
+  {
+   "id": "tp8381",
+   "label": "dlib",
+   "group": 2
+  },
+  {
+   "id": "tp9961",
+   "label": "googletest",
+   "group": 2
+  },
+  {
+   "id": "tsopencv",
+   "label": "opencv",
+   "group": 3
+  },
+  {
+   "id": "tssnappy",
+   "label": "snappy",
+   "group": 3
+  },
+  {
+   "id": "tp3032",
+   "label": "x265",
+   "group": 2
+  },
+  {
+   "id": "tp7247",
+   "label": "x265",
+   "group": 2
+  },
+  {
+   "id": "tp10265",
+   "label": "x265",
+   "group": 2
+  },
+  {
+   "id": "tp10266",
+   "label": "vp9",
+   "group": 2
+  },
+  {
+   "id": "tp7248",
+   "label": "libass",
+   "group": 2
+  },
+  {
+   "id": "tsutility",
+   "label": "utility",
+   "group": 3
+  }
+ ],
+ "edges": [
+  {
+   "id": "0",
+   "source": "795",
+   "target": "3031"
+  },
+  {
+   "id": "1",
+   "source": "795",
+   "target": "pg20886"
+  },
+  {
+   "id": "2",
+   "source": "795",
+   "target": "pg20889"
+  },
+  {
+   "id": "3",
+   "source": "795",
+   "target": "pg20901"
+  },
+  {
+   "id": "4",
+   "source": "795",
+   "target": "pg20907"
+  },
+  {
+   "id": "5",
+   "source": "795",
+   "target": "pg20911"
+  },
+  {
+   "id": "6",
+   "source": "3031",
+   "target": "pg57193"
+  },
+  {
+   "id": "7",
+   "source": "pg20886",
+   "target": "tp8381"
+  },
+  {
+   "id": "8",
+   "source": "pg20889",
+   "target": "tp9961"
+  },
+  {
+   "id": "9",
+   "source": "pg20901",
+   "target": "tsopencv"
+  },
+  {
+   "id": "10",
+   "source": "pg20907",
+   "target": "tssnappy"
+  },
+  {
+   "id": "11",
+   "source": "pg20911",
+   "target": "tp3032"
+  },
+  {
+   "id": "12",
+   "source": "tp3032",
+   "target": "tp7247"
+  },
+  {
+   "id": "13",
+   "source": "tp7247",
+   "target": "tp10265"
+  },
+  {
+   "id": "14",
+   "source": "tp7247",
+   "target": "tp10266"
+  },
+  {
+   "id": "15",
+   "source": "tp3032",
+   "target": "tp7248"
+  },
+  {
+   "id": "16",
+   "source": "pg57193",
+   "target": "tsutility"
+  }
+ ]
+}

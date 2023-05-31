@@ -1,0 +1,731 @@
+{
+ "nodes": [
+  {
+   "id": "795",
+   "label": "C++ libraries",
+   "group": 0
+  },
+  {
+   "id": "pg12812",
+   "label": "C++/WinRT",
+   "group": 1
+  },
+  {
+   "id": "pg14871",
+   "label": "Artefaktur",
+   "group": 1
+  },
+  {
+   "id": "pg14874",
+   "label": "Botan (programming library)",
+   "group": 1
+  },
+  {
+   "id": "pg14876",
+   "label": "Cinder (programming library)",
+   "group": 1
+  },
+  {
+   "id": "pg12832",
+   "label": "Number Theory Library",
+   "group": 1
+  },
+  {
+   "id": "pg14890",
+   "label": "Libarc",
+   "group": 1
+  },
+  {
+   "id": "pg14898",
+   "label": "LIVE555",
+   "group": 1
+  },
+  {
+   "id": "pg14903",
+   "label": "Open Asset Import Library",
+   "group": 1
+  },
+  {
+   "id": "pg12989",
+   "label": "DeepSpeed",
+   "group": 1
+  },
+  {
+   "id": "pg12583",
+   "label": "Database Management Library",
+   "group": 1
+  },
+  {
+   "id": "pg15175",
+   "label": "GDCM",
+   "group": 1
+  },
+  {
+   "id": "pg15181",
+   "label": "Grok (JPEG 2000)",
+   "group": 1
+  },
+  {
+   "id": "pg12685",
+   "label": "OpenVDB",
+   "group": 1
+  },
+  {
+   "id": "pg15204",
+   "label": "Kakadu (software)",
+   "group": 1
+  },
+  {
+   "id": "pg20875",
+   "label": "Active Template Library",
+   "group": 1
+  },
+  {
+   "id": "pg20876",
+   "label": "Apache C++ Standard Library",
+   "group": 1
+  },
+  {
+   "id": "pg20877",
+   "label": "Asio C++ library",
+   "group": 1
+  },
+  {
+   "id": "pg20878",
+   "label": "BALL",
+   "group": 1
+  },
+  {
+   "id": "pg20879",
+   "label": "List of C++ template libraries",
+   "group": 1
+  },
+  {
+   "id": "pg20880",
+   "label": "CLAM (audio software)",
+   "group": 1
+  },
+  {
+   "id": "pg20881",
+   "label": "CodeSynthesis XSD",
+   "group": 1
+  },
+  {
+   "id": "pg20882",
+   "label": "CodeSynthesis XSD/e",
+   "group": 1
+  },
+  {
+   "id": "pg20883",
+   "label": "CppUnit",
+   "group": 1
+  },
+  {
+   "id": "pg20884",
+   "label": "CTPP",
+   "group": 1
+  },
+  {
+   "id": "pg20885",
+   "label": "DaviX",
+   "group": 1
+  },
+  {
+   "id": "pg20886",
+   "label": "Dlib",
+   "group": 1
+  },
+  {
+   "id": "pg20887",
+   "label": "Dune (software)",
+   "group": 1
+  },
+  {
+   "id": "pg20888",
+   "label": "GiNaC",
+   "group": 1
+  },
+  {
+   "id": "pg20889",
+   "label": "Google Test",
+   "group": 1
+  },
+  {
+   "id": "pg20890",
+   "label": "Graphics Environment for Multimedia",
+   "group": 1
+  },
+  {
+   "id": "pg20891",
+   "label": "KFRlib",
+   "group": 1
+  },
+  {
+   "id": "pg20892",
+   "label": "LEMON (C++ library)",
+   "group": 1
+  },
+  {
+   "id": "pg20893",
+   "label": "High Efficiency Image File Format",
+   "group": 1
+  },
+  {
+   "id": "pg20894",
+   "label": "libsigc++",
+   "group": 1
+  },
+  {
+   "id": "pg20895",
+   "label": "Libx (graphics library)",
+   "group": 1
+  },
+  {
+   "id": "pg20896",
+   "label": "List of C++ multiple precision arithmetic libraries",
+   "group": 1
+  },
+  {
+   "id": "pg20898",
+   "label": "Metakit",
+   "group": 1
+  },
+  {
+   "id": "pg20899",
+   "label": "Microsoft Foundation Class Library",
+   "group": 1
+  },
+  {
+   "id": "pg20900",
+   "label": "Object Windows Library",
+   "group": 1
+  },
+  {
+   "id": "pg20901",
+   "label": "OpenCV",
+   "group": 1
+  },
+  {
+   "id": "pg20902",
+   "label": "OpenImageIO",
+   "group": 1
+  },
+  {
+   "id": "pg20903",
+   "label": "OpenNN",
+   "group": 1
+  },
+  {
+   "id": "pg20904",
+   "label": "Oracle Template Library",
+   "group": 1
+  },
+  {
+   "id": "pg20905",
+   "label": "POCO C++ Libraries",
+   "group": 1
+  },
+  {
+   "id": "pg20907",
+   "label": "Snappy (compression)",
+   "group": 1
+  },
+  {
+   "id": "pg20908",
+   "label": "Sound Object (SndObj) Library",
+   "group": 1
+  },
+  {
+   "id": "pg20909",
+   "label": "SymbolicC++",
+   "group": 1
+  },
+  {
+   "id": "pg20910",
+   "label": "Tkrzw",
+   "group": 1
+  },
+  {
+   "id": "pg20911",
+   "label": "x265",
+   "group": 1
+  },
+  {
+   "id": "pg20912",
+   "label": "Xcas",
+   "group": 1
+  },
+  {
+   "id": "pg12227",
+   "label": "Microsoft Detours",
+   "group": 1
+  },
+  {
+   "id": "3031",
+   "label": "C++ Standard Library",
+   "group": 0
+  },
+  {
+   "id": "pg57186",
+   "label": "auto_ptr",
+   "group": 1
+  },
+  {
+   "id": "pg57187",
+   "label": "C++ Technical Report 1",
+   "group": 1
+  },
+  {
+   "id": "pg57188",
+   "label": "Functional (C++)",
+   "group": 1
+  },
+  {
+   "id": "pg57189",
+   "label": "Input/output (C++)",
+   "group": 1
+  },
+  {
+   "id": "pg57190",
+   "label": "Sequence container (C++)",
+   "group": 1
+  },
+  {
+   "id": "pg57191",
+   "label": "Stack (C++)",
+   "group": 1
+  },
+  {
+   "id": "pg57192",
+   "label": "Unordered associative containers (C++)",
+   "group": 1
+  },
+  {
+   "id": "pg57193",
+   "label": "utility (C++)",
+   "group": 1
+  },
+  {
+   "id": "pg57182",
+   "label": "C++ Standard Library",
+   "group": 1
+  },
+  {
+   "id": "pg22238",
+   "label": "Algorithm (C++)",
+   "group": 1
+  },
+  {
+   "id": "tp434",
+   "label": "jquery",
+   "group": 2
+  },
+  {
+   "id": "tp1896",
+   "label": "jquery",
+   "group": 2
+  },
+  {
+   "id": "tp1897",
+   "label": "bootstrap-table",
+   "group": 2
+  },
+  {
+   "id": "tp1898",
+   "label": "javacript",
+   "group": 2
+  },
+  {
+   "id": "tp1899",
+   "label": "css-transitions",
+   "group": 2
+  },
+  {
+   "id": "tp1900",
+   "label": "zepto",
+   "group": 2
+  },
+  {
+   "id": "tp1901",
+   "label": "html-tags",
+   "group": 2
+  },
+  {
+   "id": "tp1902",
+   "label": "gantt",
+   "group": 2
+  },
+  {
+   "id": "tp5233",
+   "label": "gantt",
+   "group": 2
+  },
+  {
+   "id": "tp5234",
+   "label": "reservation",
+   "group": 2
+  }
+ ],
+ "edges": [
+  {
+   "id": "0",
+   "source": "795",
+   "target": "3031"
+  },
+  {
+   "id": "1",
+   "source": "795",
+   "target": "pg12812"
+  },
+  {
+   "id": "2",
+   "source": "795",
+   "target": "pg14871"
+  },
+  {
+   "id": "3",
+   "source": "795",
+   "target": "pg14874"
+  },
+  {
+   "id": "4",
+   "source": "795",
+   "target": "pg14876"
+  },
+  {
+   "id": "5",
+   "source": "795",
+   "target": "pg12832"
+  },
+  {
+   "id": "6",
+   "source": "795",
+   "target": "pg14890"
+  },
+  {
+   "id": "7",
+   "source": "795",
+   "target": "pg14898"
+  },
+  {
+   "id": "8",
+   "source": "795",
+   "target": "pg14903"
+  },
+  {
+   "id": "9",
+   "source": "795",
+   "target": "pg12989"
+  },
+  {
+   "id": "10",
+   "source": "795",
+   "target": "pg12583"
+  },
+  {
+   "id": "11",
+   "source": "795",
+   "target": "pg15175"
+  },
+  {
+   "id": "12",
+   "source": "795",
+   "target": "pg15181"
+  },
+  {
+   "id": "13",
+   "source": "795",
+   "target": "pg12685"
+  },
+  {
+   "id": "14",
+   "source": "795",
+   "target": "pg15204"
+  },
+  {
+   "id": "15",
+   "source": "795",
+   "target": "pg20875"
+  },
+  {
+   "id": "16",
+   "source": "795",
+   "target": "pg20876"
+  },
+  {
+   "id": "17",
+   "source": "795",
+   "target": "pg20877"
+  },
+  {
+   "id": "18",
+   "source": "795",
+   "target": "pg20878"
+  },
+  {
+   "id": "19",
+   "source": "795",
+   "target": "pg20879"
+  },
+  {
+   "id": "20",
+   "source": "795",
+   "target": "pg20880"
+  },
+  {
+   "id": "21",
+   "source": "795",
+   "target": "pg20881"
+  },
+  {
+   "id": "22",
+   "source": "795",
+   "target": "pg20882"
+  },
+  {
+   "id": "23",
+   "source": "795",
+   "target": "pg20883"
+  },
+  {
+   "id": "24",
+   "source": "795",
+   "target": "pg20884"
+  },
+  {
+   "id": "25",
+   "source": "795",
+   "target": "pg20885"
+  },
+  {
+   "id": "26",
+   "source": "795",
+   "target": "pg20886"
+  },
+  {
+   "id": "27",
+   "source": "795",
+   "target": "pg20887"
+  },
+  {
+   "id": "28",
+   "source": "795",
+   "target": "pg20888"
+  },
+  {
+   "id": "29",
+   "source": "795",
+   "target": "pg20889"
+  },
+  {
+   "id": "30",
+   "source": "795",
+   "target": "pg20890"
+  },
+  {
+   "id": "31",
+   "source": "795",
+   "target": "pg20891"
+  },
+  {
+   "id": "32",
+   "source": "795",
+   "target": "pg20892"
+  },
+  {
+   "id": "33",
+   "source": "795",
+   "target": "pg20893"
+  },
+  {
+   "id": "34",
+   "source": "795",
+   "target": "pg20894"
+  },
+  {
+   "id": "35",
+   "source": "795",
+   "target": "pg20895"
+  },
+  {
+   "id": "36",
+   "source": "795",
+   "target": "pg20896"
+  },
+  {
+   "id": "37",
+   "source": "795",
+   "target": "pg20898"
+  },
+  {
+   "id": "38",
+   "source": "795",
+   "target": "pg20899"
+  },
+  {
+   "id": "39",
+   "source": "795",
+   "target": "pg20900"
+  },
+  {
+   "id": "40",
+   "source": "795",
+   "target": "pg20901"
+  },
+  {
+   "id": "41",
+   "source": "795",
+   "target": "pg20902"
+  },
+  {
+   "id": "42",
+   "source": "795",
+   "target": "pg20903"
+  },
+  {
+   "id": "43",
+   "source": "795",
+   "target": "pg20904"
+  },
+  {
+   "id": "44",
+   "source": "795",
+   "target": "pg20905"
+  },
+  {
+   "id": "45",
+   "source": "795",
+   "target": "pg20907"
+  },
+  {
+   "id": "46",
+   "source": "795",
+   "target": "pg20908"
+  },
+  {
+   "id": "47",
+   "source": "795",
+   "target": "pg20909"
+  },
+  {
+   "id": "48",
+   "source": "795",
+   "target": "pg20910"
+  },
+  {
+   "id": "49",
+   "source": "795",
+   "target": "pg20911"
+  },
+  {
+   "id": "50",
+   "source": "795",
+   "target": "pg20912"
+  },
+  {
+   "id": "51",
+   "source": "795",
+   "target": "pg12227"
+  },
+  {
+   "id": "52",
+   "source": "3031",
+   "target": "pg57186"
+  },
+  {
+   "id": "53",
+   "source": "3031",
+   "target": "pg57187"
+  },
+  {
+   "id": "54",
+   "source": "3031",
+   "target": "pg57188"
+  },
+  {
+   "id": "55",
+   "source": "3031",
+   "target": "pg57189"
+  },
+  {
+   "id": "56",
+   "source": "3031",
+   "target": "pg57190"
+  },
+  {
+   "id": "57",
+   "source": "3031",
+   "target": "pg57191"
+  },
+  {
+   "id": "58",
+   "source": "3031",
+   "target": "pg57192"
+  },
+  {
+   "id": "59",
+   "source": "3031",
+   "target": "pg57193"
+  },
+  {
+   "id": "60",
+   "source": "3031",
+   "target": "pg57182"
+  },
+  {
+   "id": "61",
+   "source": "3031",
+   "target": "pg22238"
+  },
+  {
+   "id": "62",
+   "source": "pg967",
+   "target": "tp434"
+  },
+  {
+   "id": "63",
+   "source": "tp434",
+   "target": "tp1896"
+  },
+  {
+   "id": "64",
+   "source": "tp1896",
+   "target": "tp1897"
+  },
+  {
+   "id": "65",
+   "source": "tp1896",
+   "target": "tp1898"
+  },
+  {
+   "id": "66",
+   "source": "tp1896",
+   "target": "tp1899"
+  },
+  {
+   "id": "67",
+   "source": "tp1896",
+   "target": "tp1900"
+  },
+  {
+   "id": "68",
+   "source": "tp1896",
+   "target": "tp1901"
+  },
+  {
+   "id": "69",
+   "source": "tp434",
+   "target": "tp1902"
+  },
+  {
+   "id": "70",
+   "source": "tp1902",
+   "target": "tp5233"
+  },
+  {
+   "id": "71",
+   "source": "tp1902",
+   "target": "tp5234"
+  }
+ ]
+}

@@ -1,0 +1,302 @@
+[
+ {
+  "id": 0,
+  "reponame": "remy/mit-license",
+  "description": "Hosted MIT License with details controlled through this repo"
+ },
+ {
+  "id": 1,
+  "reponame": "xiaobinwu/Wuji",
+  "description": "\u4f7f\u7528vue+vuex+vue-router\u6280\u672f\u6808\u5f00\u53d1\u7684\u543e\u8bb0\u7f51\u9875\u7248\uff08\u7eaf\u524d\u7aef\uff09\uff0c\u6709\u65f6\u95f4\u4f1a\u6301\u7eed\u66f4\u65b0\uff0c\u6b22\u8fcestar"
+ },
+ {
+  "id": 2,
+  "reponame": "Gargron/blurhash",
+  "description": "Encode an image as a small string that can be saved in the database, returned in API responses, and displayed as a blurred preview before the real image loads"
+ },
+ {
+  "id": 3,
+  "reponame": "brunow/NoteItIOS",
+  "description": "Ios markdown notebook"
+ },
+ {
+  "id": 4,
+  "reponame": "AdamPflug/express-brute",
+  "description": "Brute-force protection middleware for express routes by rate limiting incoming requests"
+ },
+ {
+  "id": 5,
+  "reponame": "ibm-aur-nlp/PubTabNet",
+  "description": null
+ },
+ {
+  "id": 6,
+  "reponame": "Network-security-data-sharing/Data-sharing",
+  "description": "\u8d44\u6599\u5206\u4eab"
+ },
+ {
+  "id": 7,
+  "reponame": "php-casbin/laravel-authz",
+  "description": "An authorization library that supports access control models like ACL, RBAC, ABAC in Laravel."
+ },
+ {
+  "id": 8,
+  "reponame": "mahyarnajibi/SNIPER",
+  "description": "SNIPER / AutoFocus is an efficient multi-scale object detection training / inference algorithm"
+ },
+ {
+  "id": 9,
+  "reponame": "dbt-labs/dbt-external-tables",
+  "description": "dbt macros to stage external sources"
+ },
+ {
+  "id": 10,
+  "reponame": "project-store/theme",
+  "description": "\u6536\u96c6\u7684bootstrap\u4e3b\u9898\u9875\u9762\uff0c\u524d\u53f0\u90fd\u6709\uff0c\u6b22\u8fce\u4f7f\u7528"
+ },
+ {
+  "id": 11,
+  "reponame": "RimoChan/steal_piano",
+  "description": "\u3010steal piano\u3011GitHub\u5077\u60c5\u5206\u6790\u5de5\u5177\uff01"
+ },
+ {
+  "id": 12,
+  "reponame": "engindemirog/KampIntro",
+  "description": "Yaz\u0131l\u0131m Geli\u015ftirici Yeti\u015ftirme Kamp\u0131 kodlar\u0131."
+ },
+ {
+  "id": 13,
+  "reponame": "eBay/jsonpipe",
+  "description": "A lightweight AJAX client for chunked JSON responses"
+ },
+ {
+  "id": 14,
+  "reponame": "Alex-Levacher/Lumie",
+  "description": "\u2728 An opinionated way to keep your express API organized"
+ },
+ {
+  "id": 15,
+  "reponame": "bstewart/stm",
+  "description": "An R Package for the Structural Topic Model"
+ },
+ {
+  "id": 16,
+  "reponame": "zxcvbn001/password_brute_dictionary",
+  "description": "\u53e3\u4ee4\u7206\u7834\u5b57\u5178\uff0c\u6709\u952e\u76d8\u7ec4\u5408\u5b57\u5178\u3001\u62fc\u97f3\u5b57\u5178\u3001\u5b57\u6bcd\u4e0e\u6570\u5b57\u6df7\u5408\u8fd9\u4e09\u79cd\u7c7b\u578b"
+ },
+ {
+  "id": 17,
+  "reponame": "jchris/couchrest",
+  "description": "A RESTful CouchDB client based on Heroku's RestClient and Couch.js - you want the version at http://github.com/couchrest/couchrest"
+ },
+ {
+  "id": 18,
+  "reponame": "segmentio/ts-mysql-plugin",
+  "description": "A typescript language service plugin that gives superpowers to SQL tagged template literals."
+ },
+ {
+  "id": 19,
+  "reponame": "jaredhanson/passport-google-oauth2",
+  "description": "Google authentication strategy for Passport and Node.js."
+ },
+ {
+  "id": 20,
+  "reponame": "Maescool/Catacomb-Snatch",
+  "description": "Mojang's Humble bundle source"
+ },
+ {
+  "id": 21,
+  "reponame": "inversify/inversify-express-utils",
+  "description": "Some utilities for the development of Express application with InversifyJS"
+ },
+ {
+  "id": 22,
+  "reponame": "REhints/Publications",
+  "description": "Conference slides and White-papers "
+ },
+ {
+  "id": 23,
+  "reponame": "facebookresearch/multiface",
+  "description": "Hosts the Multiface dataset, which is a multi-view dataset of multiple identities performing a sequence of facial expressions."
+ },
+ {
+  "id": 24,
+  "reponame": "0xProject/0x-api",
+  "description": "An HTTP Interface to 0x liquidity and tooling"
+ },
+ {
+  "id": 25,
+  "reponame": "nestjs/jwt",
+  "description": "JWT utilities module based on the jsonwebtoken package \ud83d\udd13"
+ },
+ {
+  "id": 26,
+  "reponame": "flickr/yakbak",
+  "description": "Record and playback HTTP responses"
+ },
+ {
+  "id": 27,
+  "reponame": "crsandeep/simple-react-full-stack",
+  "description": "Boilerplate to build a full stack web application using React, Node.js, Express and Webpack."
+ },
+ {
+  "id": 28,
+  "reponame": "akfish/fm-terminal",
+  "description": "A terminal-like douban.fm Chrome extension"
+ },
+ {
+  "id": 29,
+  "reponame": "aaronbrethorst/StackScrollView",
+  "description": "Stack Scroll View Panel like Twitter Ipad app for iOS developers [iPad]"
+ },
+ {
+  "id": 30,
+  "reponame": "neverendingqs/netlify-express",
+  "description": "Express.js hosted on Netlify"
+ },
+ {
+  "id": 31,
+  "reponame": "shyamseshadri/angularjs-up-and-running",
+  "description": "All the source code for the AngularJS Up & Running Book for O'Reilly"
+ },
+ {
+  "id": 32,
+  "reponame": "VOICEVOX/voicevox",
+  "description": "\u7121\u6599\u3067\u4f7f\u3048\u308b\u4e2d\u54c1\u8cea\u306a\u30c6\u30ad\u30b9\u30c8\u8aad\u307f\u4e0a\u3052\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u3001VOICEVOX\u306e\u30a8\u30c7\u30a3\u30bf\u30fc"
+ },
+ {
+  "id": 33,
+  "reponame": "antgan/wx-tools",
+  "description": "Wx-tools\u662f\u57fa\u4e8e\u5fae\u4fe1\u516c\u4f17\u5e73\u53f0API\u7684\u8f7b\u91cf\u7ea7\u6846\u67b6\u3002 \u57fa\u4e8eWx-tools\u4f60\u53ef\u4ee5\u5f00\u901f\u5f00\u53d1\u4e00\u4e2a\u8ba2\u9605\u53f7/\u670d\u52a1\u53f7\u7684web\u5e94\u7528\u540e\u53f0\u3002"
+ },
+ {
+  "id": 34,
+  "reponame": "liuggio/symfony2-rest-api-the-best-2013-way",
+  "description": "Code for the article at:"
+ },
+ {
+  "id": 35,
+  "reponame": "expressjs/express",
+  "description": "Fast, unopinionated, minimalist web framework for node."
+ },
+ {
+  "id": 36,
+  "reponame": "shamahoque/mern-marketplace",
+  "description": "A MERN stack based online marketplace application [Full-Stack React Projects]"
+ },
+ {
+  "id": 37,
+  "reponame": "e-oj/Fawn",
+  "description": "Transactions for MongoDB (See the README)"
+ },
+ {
+  "id": 38,
+  "reponame": "xmuSistone/VegaLayoutManager",
+  "description": "\u221aA customized LayoutManager - fade and shrink the head itemView when scrolling."
+ },
+ {
+  "id": 39,
+  "reponame": "adibfara/ComposeClock",
+  "description": "Particle clock created with Jetpack Compose framework"
+ },
+ {
+  "id": 40,
+  "reponame": "charleslo1/weapp-cookie",
+  "description": "\u4e00\u884c\u4ee3\u7801\u8ba9\u5fae\u4fe1\u3001\u5934\u6761\u3001\u767e\u5ea6\u3001\u652f\u4ed8\u5b9d\u5c0f\u7a0b\u5e8f\u652f\u6301 cookie\uff0c\u517c\u5bb9 uni-app \ud83c\udf6a\ud83d\ude80 One line of code allows weapp to support cookie\uff08wx weixin wxapp cookie\uff09"
+ },
+ {
+  "id": 41,
+  "reponame": "trailsjs/sails-permissions",
+  "description": "Comprehensive user permissions and entitlements system for sails.js and Waterline. Supports user authentication with passport.js, role-based permissioning, object ownership, and row-level security."
+ },
+ {
+  "id": 42,
+  "reponame": "adnanrahic/a-crash-course-on-serverless-auth",
+  "description": "A short and easy boilerplate showcasing JWT auth with Nodejs, the Serverless framework, MongoDB and AWS Lambda."
+ },
+ {
+  "id": 43,
+  "reponame": "diegohaz/schm",
+  "description": "Composable schemas for JavaScript and Node.js"
+ },
+ {
+  "id": 44,
+  "reponame": "pwx123/vue-vant-store",
+  "description": "\u57fa\u4e8evue\uff0cvantUI\u7684\u5546\u57cedemo\uff0c\u5305\u542b\u524d\u7aef\u548c\u540e\u7aef"
+ },
+ {
+  "id": 45,
+  "reponame": "i18next/i18next-node",
+  "description": "[deprecated] can be replaced with v2 of i18next"
+ },
+ {
+  "id": 46,
+  "reponame": "bmob/hydrogen-js-sdk",
+  "description": "Bmob \u65b0\u7248ES6 SDK, \u65b0\u7248\u8bed\u6cd5\u6574\u5408\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u3001\u5feb\u5e94\u7528\u3001H5\u7b49"
+ },
+ {
+  "id": 47,
+  "reponame": "yhnavein/express-starter",
+  "description": "It's a hackathon-starter fork, but designed to use PostgreSQL by default (or MySQL)"
+ },
+ {
+  "id": 48,
+  "reponame": "yipengmu/react-native-android-lession",
+  "description": "mark react-native-android steps"
+ },
+ {
+  "id": 49,
+  "reponame": "xiaoqqchen/PcArcBruTile",
+  "description": "\u5728ArcGIS\u4e2d\u5feb\u901f\u52a0\u8f7d\u7f51\u7edc\u5730\u56fe"
+ },
+ {
+  "id": 50,
+  "reponame": "yenchenlin/nerf-pytorch",
+  "description": "A PyTorch implementation of NeRF (Neural Radiance Fields) that reproduces the results."
+ },
+ {
+  "id": 51,
+  "reponame": "Freeboard/thingproxy",
+  "description": "A simple forward proxy server for processing API calls to servers that don't send CORS headers or support HTTPS."
+ },
+ {
+  "id": 52,
+  "reponame": "microzz/vue-chat",
+  "description": "\ud83d\udc65Vue\u5168\u5bb6\u6876+Socket.io+Express/Koa2\u6253\u9020\u4e00\u4e2a\u667a\u80fd\u804a\u5929\u5ba4\u3002"
+ },
+ {
+  "id": 53,
+  "reponame": "dalenguyen/rest-api-node-typescript",
+  "description": "Building RESTful Web APIs with Node.js, Express, MongoDB and TypeScript"
+ },
+ {
+  "id": 54,
+  "reponame": "kunalkapadia/express-mongoose-es6-rest-api",
+  "description": ":collision: A boilerplate application for building RESTful APIs Microservice in Node.js using express and mongoose in ES6 with code coverage and JsonWebToken Authentication"
+ },
+ {
+  "id": 55,
+  "reponame": "animir/node-rate-limiter-flexible",
+  "description": "Count and limit requests by key with atomic increments in single process or distributed environment."
+ },
+ {
+  "id": 56,
+  "reponame": "mengsixing/cdfang-spider",
+  "description": "\ud83d\udcca \u6210\u90fd\u623f\u534f\u7f51\u6570\u636e\u5206\u6790\uff0c\u559c\u6b22\u8bf7\u70b9 star\uff01"
+ },
+ {
+  "id": 57,
+  "reponame": "bojone/crf",
+  "description": "keras implementation of conditional random field"
+ },
+ {
+  "id": 58,
+  "reponame": "pilcrowOnPaper/lucia-auth",
+  "description": "Authentication, simple and clean"
+ },
+ {
+  "id": 59,
+  "reponame": "liumingmusic/react-native-full-example",
+  "description": "\u7b2c\u4e00\u4e2a\u5b8c\u6574\u7684react-native\u9879\u76ee\u3002\u5305\u62ec\u670d\u52a1\u7aef\u548c\u79fb\u52a8\u7aef\u4e24\u90e8\u5206\u3002\u670d\u52a1\u7aef\u4f7f\u7528express+bootstrap\u8fdb\u884c\u642d\u5efa\uff0c\u4e3b\u8981\u529f\u80fd\u6709\u767b\u5f55\u3001\u9000\u51fa\u3001\u6a21\u5757\u9009\u62e9\u3001\u67e5\u770b\u3001\u4fee\u6539\u3001\u5220\u9664\u3001\u5206\u9875\u7b49\u540e\u53f0\u7ba1\u7406\u7684\u57fa\u672c\u529f\u80fd\uff1b\u79fb\u52a8\u7aef\u4e3b\u8981\u7528\u5230\u7ec4\u4ef6View\u3001Text\u3001Image\u3001ScrollView\u3001ListView\u7b49\u5e38\u7528\u7684\u7ec4\u4ef6\uff0c\u4e5f\u4f7f\u7528\u4e86\u7b2c\u4e09\u65b9\u7684\u5730\u56fe\u670d\u52a1(\u9ad8\u5fb7\u5730\u56fe)\uff0c\u4f5c\u4e3a\u521d\u5b66\u8005\u3002\u662f\u4e00\u4e2a\u5f88\u597d\u7684\u5b66\u4e60\u6848\u4f8b\u3002"
+ }
+]

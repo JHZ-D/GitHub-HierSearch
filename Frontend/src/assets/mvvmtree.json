@@ -1,0 +1,45 @@
+{
+ "id": "103",
+ "label": "Software design patterns",
+ "group": 0,
+ "children": [
+  {
+   "id": "pg3437",
+   "label": "Model\u2013view\u2013viewmodel",
+   "group": 1,
+   "children": [
+    {
+     "id": "tp721",
+     "label": "mvvm",
+     "children": [
+      {
+       "id": "tp2804",
+       "label": "mvvm",
+       "children": [],
+       "group": 2
+      },
+      {
+       "id": "tp2805",
+       "label": "architecture",
+       "children": [],
+       "group": 2
+      },
+      {
+       "id": "tp2806",
+       "label": "mvvm-android",
+       "children": [],
+       "group": 2
+      },
+      {
+       "id": "tp2807",
+       "label": "coroutines",
+       "children": [],
+       "group": 2
+      }
+     ],
+     "group": 2
+    }
+   ]
+  }
+ ]
+}

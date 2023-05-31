@@ -1,0 +1,98 @@
+{
+    "id":"0",
+    "label":"vue.js",
+    "group":2,
+    "children":[
+        {
+            "id":"1",
+            "label":"vue.js",
+            "group":2,
+            "children":[
+                {
+                    "id":"3",
+                    "label":"vue.js",
+                    "group":2,
+                    "children":[
+                        {
+                            "id":"23",
+                            "label":"vue.js",
+                            "group":2,
+                            "children":[
+                                {
+                                    "id":"4",
+                                    "label":"vue.js",
+                                    "group":2,
+                                    "children":[
+                                        {
+                                            "id":"5",
+                                            "label":"vue.js",
+                                            "group":2,
+                                            "children":[
+                                                {
+                                                    "id": "6",
+                                                    "label": "jbaysolutions/vue-grid-layout",
+                                                    "group":4,
+                                                    "children":[]
+                                                },{
+                                                    "id": "12",
+                                                    "label": "prettier/prettier",
+                                                    "group":4,
+                                                    "children":[]
+                                                },{
+                                                    "id": "13",
+                                                    "label": "vuejs/vue",
+                                                    "group":4,
+                                                    "children":[]
+                                                },{
+                                                    "id": "14",
+                                                    "label": "SortableJS/Vue.Draggable",
+                                                    "group":4,
+                                                    "children":[]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id":"7",
+                    "label":"echarts",
+                    "group":2,
+                    "children":[
+                        {
+                            "id":"8",
+                            "label": "apache/echarts",
+                            "group":4,
+                            "children":[]
+                        }
+                    ]
+                },
+                {
+                    "id":"9",
+                    "label":"imcvampire/vue-axios",
+                    "group":4,
+                    "children":[]
+                },{
+                    "id": "10",
+                    "label": "vuejs/router",
+                    "group":4,
+                    "children":[]
+                },{
+                    "id": "11",
+                    "label": "vuejs/vuex",
+                    "group":4,
+                    "children":[]
+                }
+            ]
+        },
+        {
+            "id":"2",
+            "label":"ElemeFE/element",
+            "group":4,
+            "children":[]
+        }
+    ]
+}

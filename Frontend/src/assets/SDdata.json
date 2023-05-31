@@ -1,0 +1,1083 @@
+{
+    "graph": {
+        "id": "0",
+        "label": "Software development",
+        "group": 0,
+        "children": [
+            {
+                "id": "1",
+                "label": "Software",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "45",
+                        "label": "Software by company",
+                        "group": 0,
+                        "children": [],
+                        "parent": "1"
+                    },
+                    {
+                        "id": "47",
+                        "label": "Software by institution",
+                        "group": 0,
+                        "children": [],
+                        "parent": "1"
+                    },
+                    {
+                        "id": "48",
+                        "label": "Software by library used",
+                        "group": 0,
+                        "children": [],
+                        "parent": "1"
+                    },
+                    {
+                        "id": "49",
+                        "label": "Software by license",
+                        "group": 0,
+                        "children": [],
+                        "parent": "1"
+                    },
+                    {
+                        "id": "50",
+                        "label": "Software by operating system",
+                        "group": 0,
+                        "children": [],
+                        "parent": "1"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "3",
+                "label": "Atari ST software",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "72",
+                        "label": "Atari ST games",
+                        "group": 0,
+                        "children": [],
+                        "parent": "3"
+                    },
+                    {
+                        "id": "pg98",
+                        "label": "EmuTOS",
+                        "group": 1,
+                        "children": [],
+                        "parent": "3"
+                    },
+                    {
+                        "id": "pg102",
+                        "label": "MagiC",
+                        "group": 1,
+                        "children": [],
+                        "parent": "3"
+                    },
+                    {
+                        "id": "pg104",
+                        "label": "Microsoft Word",
+                        "group": 1,
+                        "children": [],
+                        "parent": "3"
+                    },
+                    {
+                        "id": "pg106",
+                        "label": "MiNT",
+                        "group": 1,
+                        "children": [],
+                        "parent": "3"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "4",
+                "label": "Software development books",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "74",
+                        "label": "Software engineering books",
+                        "group": 0,
+                        "children": [],
+                        "parent": "4"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "5",
+                "label": "Coding schools",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "pg135",
+                        "label": "42 (school)",
+                        "group": 1,
+                        "children": [],
+                        "parent": "5"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "6",
+                "label": "Software developer communities",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "75",
+                        "label": "Free software websites",
+                        "group": 0,
+                        "children": [],
+                        "parent": "6"
+                    },
+                    {
+                        "id": "pg158",
+                        "label": "CodePen",
+                        "group": 1,
+                        "children": [],
+                        "parent": "6"
+                    },
+                    {
+                        "id": "pg166",
+                        "label": "Hackathon",
+                        "group": 1,
+                        "children": [],
+                        "parent": "6"
+                    },
+                    {
+                        "id": "pg179",
+                        "label": "Scratch (programming language)",
+                        "group": 1,
+                        "children": [],
+                        "parent": "6"
+                    },
+                    {
+                        "id": "pg180",
+                        "label": "Shadertoy",
+                        "group": 1,
+                        "children": [],
+                        "parent": "6"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "7",
+                "label": "Computer programming",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "77",
+                        "label": "Algorithms",
+                        "group": 0,
+                        "children": [],
+                        "parent": "7"
+                    },
+                    {
+                        "id": "78",
+                        "label": "Anti-patterns",
+                        "group": 0,
+                        "children": [],
+                        "parent": "7"
+                    },
+                    {
+                        "id": "79",
+                        "label": "Code refactoring",
+                        "group": 0,
+                        "children": [],
+                        "parent": "7"
+                    },
+                    {
+                        "id": "80",
+                        "label": "Concurrent computing",
+                        "group": 0,
+                        "children": [],
+                        "parent": "7"
+                    },
+                    {
+                        "id": "81",
+                        "label": "Programming constructs",
+                        "group": 0,
+                        "children": [],
+                        "parent": "7"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "8",
+                "label": "Cross-platform desktop-apps development",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "pg337",
+                        "label": "Electron (software framework)",
+                        "group": 1,
+                        "children": [],
+                        "parent": "8"
+                    },
+                    {
+                        "id": "pg339",
+                        "label": "Qt (software)",
+                        "group": 1,
+                        "children": [],
+                        "parent": "8"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "9",
+                "label": "Software development events",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "111",
+                        "label": "Game jams",
+                        "group": 0,
+                        "children": [],
+                        "parent": "9"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "10",
+                "label": "Software forks",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "113",
+                        "label": "Debian-based distributions",
+                        "group": 0,
+                        "children": [],
+                        "parent": "10"
+                    },
+                    {
+                        "id": "pg360",
+                        "label": "Fork (software development)",
+                        "group": 1,
+                        "children": [],
+                        "parent": "10"
+                    },
+                    {
+                        "id": "pg362",
+                        "label": "Adempiere",
+                        "group": 1,
+                        "children": [],
+                        "parent": "10"
+                    },
+                    {
+                        "id": "pg363",
+                        "label": "aMule",
+                        "group": 1,
+                        "children": [],
+                        "parent": "10"
+                    },
+                    {
+                        "id": "pg364",
+                        "label": "Audacious (software)",
+                        "group": 1,
+                        "children": [],
+                        "parent": "10"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "11",
+                "label": "Homebrew software",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "pg461",
+                        "label": "Custom firmware",
+                        "group": 1,
+                        "children": [],
+                        "parent": "11"
+                    },
+                    {
+                        "id": "pg462",
+                        "label": "Cydia",
+                        "group": 1,
+                        "children": [],
+                        "parent": "11"
+                    },
+                    {
+                        "id": "pg472",
+                        "label": "OpenWrt",
+                        "group": 1,
+                        "children": [],
+                        "parent": "11"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "12",
+                "label": "Internationalization and localization",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "118",
+                        "label": "Date and time representation",
+                        "group": 0,
+                        "children": [],
+                        "parent": "12"
+                    },
+                    {
+                        "id": "120",
+                        "label": "Keyboard layouts",
+                        "group": 0,
+                        "children": [],
+                        "parent": "12"
+                    },
+                    {
+                        "id": "122",
+                        "label": "Software-localization tools",
+                        "group": 0,
+                        "children": [],
+                        "parent": "12"
+                    },
+                    {
+                        "id": "pg512",
+                        "label": "ISO 3166",
+                        "group": 1,
+                        "children": [],
+                        "parent": "12"
+                    },
+                    {
+                        "id": "pg515",
+                        "label": "Locale (computer software)",
+                        "group": 1,
+                        "children": [],
+                        "parent": "12"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "13",
+                "label": "Software development kits",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "pg528",
+                        "label": "Akka (toolkit)",
+                        "group": 1,
+                        "children": [],
+                        "parent": "13"
+                    },
+                    {
+                        "id": "pg529",
+                        "label": "Amazon Lumberyard",
+                        "group": 1,
+                        "children": [],
+                        "parent": "13"
+                    },
+                    {
+                        "id": "pg530",
+                        "label": "Android NDK",
+                        "group": 1,
+                        "children": [],
+                        "parent": "13"
+                    },
+                    {
+                        "id": "pg531",
+                        "label": "Android Studio",
+                        "group": 1,
+                        "children": [],
+                        "parent": "13"
+                    },
+                    {
+                        "id": "pg533",
+                        "label": "ARCore",
+                        "group": 1,
+                        "children": [],
+                        "parent": "13"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "14",
+                "label": "Software project management",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "125",
+                        "label": "Agile software development",
+                        "group": 0,
+                        "children": [],
+                        "parent": "14"
+                    },
+                    {
+                        "id": "pg578",
+                        "label": "Baseline (configuration management)",
+                        "group": 1,
+                        "children": [],
+                        "parent": "14"
+                    },
+                    {
+                        "id": "pg623",
+                        "label": "Release management",
+                        "group": 1,
+                        "children": [],
+                        "parent": "14"
+                    },
+                    {
+                        "id": "pg641",
+                        "label": "Teamwork (project management)",
+                        "group": 1,
+                        "children": [],
+                        "parent": "14"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "15",
+                "label": "Software development philosophies",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "pg650",
+                        "label": "Behavior-driven development",
+                        "group": 1,
+                        "children": [],
+                        "parent": "15"
+                    },
+                    {
+                        "id": "pg651",
+                        "label": "Best practice",
+                        "group": 1,
+                        "children": [],
+                        "parent": "15"
+                    },
+                    {
+                        "id": "pg656",
+                        "label": "Domain-driven design",
+                        "group": 1,
+                        "children": [],
+                        "parent": "15"
+                    },
+                    {
+                        "id": "pg658",
+                        "label": "Formal methods",
+                        "group": 1,
+                        "children": [],
+                        "parent": "15"
+                    },
+                    {
+                        "id": "pg659",
+                        "label": "Kanban (development)",
+                        "group": 1,
+                        "children": [],
+                        "parent": "15"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "16",
+                "label": "Software development by platforms",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "128",
+                        "label": "Mobile software development",
+                        "group": 0,
+                        "children": [],
+                        "parent": "16"
+                    },
+                    {
+                        "id": "pg680",
+                        "label": "Uno Platform",
+                        "group": 1,
+                        "children": [],
+                        "parent": "16"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "17",
+                "label": "Software release",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "pg683",
+                        "label": "Patch (computing)",
+                        "group": 1,
+                        "children": [],
+                        "parent": "17"
+                    },
+                    {
+                        "id": "pg684",
+                        "label": "Continuous delivery",
+                        "group": 1,
+                        "children": [],
+                        "parent": "17"
+                    },
+                    {
+                        "id": "pg685",
+                        "label": "Continuous deployment",
+                        "group": 1,
+                        "children": [],
+                        "parent": "17"
+                    },
+                    {
+                        "id": "pg690",
+                        "label": "Hotfix",
+                        "group": 1,
+                        "children": [],
+                        "parent": "17"
+                    },
+                    {
+                        "id": "pg702",
+                        "label": "Source port",
+                        "group": 1,
+                        "children": [],
+                        "parent": "17"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "18",
+                "label": "Software development process",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "129",
+                        "label": "Aspect-oriented software development",
+                        "group": 0,
+                        "children": [],
+                        "parent": "18"
+                    },
+                    {
+                        "id": "131",
+                        "label": "Method engineering",
+                        "group": 0,
+                        "children": [],
+                        "parent": "18"
+                    },
+                    {
+                        "id": "132",
+                        "label": "Types of tools used in software development",
+                        "group": 0,
+                        "children": [],
+                        "parent": "18"
+                    },
+                    {
+                        "id": "pg721",
+                        "label": "Continuous integration",
+                        "group": 1,
+                        "children": [],
+                        "parent": "18"
+                    },
+                    {
+                        "id": "pg723",
+                        "label": "Data engineering",
+                        "group": 1,
+                        "children": [],
+                        "parent": "18"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "19",
+                "label": "Software documentation",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "133",
+                        "label": "Documentation generators",
+                        "group": 0,
+                        "children": [],
+                        "parent": "19"
+                    },
+                    {
+                        "id": "135",
+                        "label": "Literate programming",
+                        "group": 0,
+                        "children": [],
+                        "parent": "19"
+                    },
+                    {
+                        "id": "pg796",
+                        "label": "DocBook",
+                        "group": 1,
+                        "children": [],
+                        "parent": "19"
+                    },
+                    {
+                        "id": "pg797",
+                        "label": "Docstring",
+                        "group": 1,
+                        "children": [],
+                        "parent": "19"
+                    },
+                    {
+                        "id": "pg807",
+                        "label": "README",
+                        "group": 1,
+                        "children": [],
+                        "parent": "19"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "20",
+                "label": "Upcoming software",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "137",
+                        "label": "Beta software",
+                        "group": 0,
+                        "children": [],
+                        "parent": "20"
+                    },
+                    {
+                        "id": "138",
+                        "label": "Upcoming video games",
+                        "group": 0,
+                        "children": [],
+                        "parent": "20"
+                    },
+                    {
+                        "id": "pg816",
+                        "label": "ReactOS",
+                        "group": 1,
+                        "children": [],
+                        "parent": "20"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "21",
+                "label": "Video game development",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "139",
+                        "label": "3D scenegraph APIs",
+                        "group": 0,
+                        "children": [],
+                        "parent": "21"
+                    },
+                    {
+                        "id": "140",
+                        "label": "Game artificial intelligence",
+                        "group": 0,
+                        "children": [],
+                        "parent": "21"
+                    },
+                    {
+                        "id": "144",
+                        "label": "Video game design",
+                        "group": 0,
+                        "children": [],
+                        "parent": "21"
+                    },
+                    {
+                        "id": "145",
+                        "label": "Video game developers",
+                        "group": 0,
+                        "children": [],
+                        "parent": "21"
+                    },
+                    {
+                        "id": "146",
+                        "label": "Video games by development status",
+                        "group": 0,
+                        "children": [],
+                        "parent": "21"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "22",
+                "label": "Web development",
+                "group": 0,
+                "children": [
+                    {
+                        "id": "157",
+                        "label": "Ajax (programming)",
+                        "group": 0,
+                        "children": [],
+                        "parent": "22"
+                    },
+                    {
+                        "id": "158",
+                        "label": "Automattic",
+                        "group": 0,
+                        "children": [],
+                        "parent": "22"
+                    },
+                    {
+                        "id": "159",
+                        "label": "CSS frameworks",
+                        "group": 0,
+                        "children": [],
+                        "parent": "22"
+                    },
+                    {
+                        "id": "160",
+                        "label": "HTML",
+                        "group": 0,
+                        "children": [],
+                        "parent": "22"
+                    },
+                    {
+                        "id": "161",
+                        "label": "Hypertext Transfer Protocol",
+                        "group": 0,
+                        "children": [],
+                        "parent": "22"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "pg0",
+                "label": "Software development",
+                "group": 1,
+                "children": [
+                    {
+                        "id": "tp8016",
+                        "label": "software-development",
+                        "group": 2,
+                        "children": [
+                            {
+                                "id": "rp143685",
+                                "label": "kilimchoi/engineering-blogs",
+                                "group": 4,
+                                "parent": "tp8016"
+                            },
+                            {
+                                "id": "rp108880",
+                                "label": "joebew42/study-path",
+                                "group": 4,
+                                "parent": "tp8016"
+                            },
+                            {
+                                "id": "rp135890",
+                                "label": "abishekaditya/DesignPatterns",
+                                "group": 4,
+                                "parent": "tp8016"
+                            },
+                            {
+                                "id": "rp58198",
+                                "label": "pkivolowitz/asm_book",
+                                "group": 4,
+                                "parent": "tp8016"
+                            },
+                            {
+                                "id": "rp9139",
+                                "label": "jesselpalmer/the-engineering-managers-booklist",
+                                "group": 4,
+                                "parent": "tp8016"
+                            }
+                        ],
+                        "parent": "pg0"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "pg5",
+                "label": "Artifact (software development)",
+                "group": 1,
+                "children": [
+                    {
+                        "id": "tp5599",
+                        "label": "artifact",
+                        "group": 2,
+                        "children": [
+                            {
+                                "id": "rp99266",
+                                "label": "frzyc/genshin-optimizer",
+                                "group": 4,
+                                "parent": "tp5599"
+                            },
+                            {
+                                "id": "rp4987",
+                                "label": "dawidd6/action-download-artifact",
+                                "group": 4,
+                                "parent": "tp5599"
+                            },
+                            {
+                                "id": "rp177660",
+                                "label": "forrest-orr/moneta",
+                                "group": 4,
+                                "parent": "tp5599"
+                            },
+                            {
+                                "id": "rp143479",
+                                "label": "SilveryStar/Adachi-BOT",
+                                "group": 4,
+                                "parent": "tp5599"
+                            },
+                            {
+                                "id": "rp110887",
+                                "label": "ValveSoftware/ArtifactDeckCode",
+                                "group": 4,
+                                "parent": "tp5599"
+                            }
+                        ],
+                        "parent": "pg5"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "pg8",
+                "label": "Chaos engineering",
+                "group": 1,
+                "children": [
+                    {
+                        "id": "tp1509",
+                        "label": "chaos-engineering",
+                        "group": 2,
+                        "children": [],
+                        "parent": "pg8"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "pg9",
+                "label": "CI/CD",
+                "group": 1,
+                "children": [
+                    {
+                        "id": "tscicd",
+                        "label": "cicd",
+                        "group": 3,
+                        "children": [
+                            {
+                                "id": "rp163",
+                                "label": "jenkinsci/jenkins",
+                                "group": 4,
+                                "parent": "tscicd"
+                            },
+                            {
+                                "id": "rp82298",
+                                "label": "goldbergyoni/javascript-testing-best-practices",
+                                "group": 4,
+                                "parent": "tscicd"
+                            },
+                            {
+                                "id": "rp9980",
+                                "label": "argoproj/argo-cd",
+                                "group": 4,
+                                "parent": "tscicd"
+                            },
+                            {
+                                "id": "rp121841",
+                                "label": "earthly/earthly",
+                                "group": 4,
+                                "parent": "tscicd"
+                            },
+                            {
+                                "id": "rp25775",
+                                "label": "openspug/spug",
+                                "group": 4,
+                                "parent": "tscicd"
+                            }
+                        ],
+                        "parent": "pg9"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "pg25",
+                "label": "Kiwix",
+                "group": 1,
+                "children": [
+                    {
+                        "id": "tskiwix",
+                        "label": "kiwix",
+                        "group": 3,
+                        "children": [
+                            {
+                                "id": "rp15681",
+                                "label": "kiwix/kiwix-android",
+                                "group": 4,
+                                "parent": "tskiwix"
+                            },
+                            {
+                                "id": "rp63700",
+                                "label": "kiwix/apple",
+                                "group": 4,
+                                "parent": "tskiwix"
+                            },
+                            {
+                                "id": "rp15830",
+                                "label": "kiwix/kiwix-tools",
+                                "group": 4,
+                                "parent": "tskiwix"
+                            },
+                            {
+                                "id": "rp4305",
+                                "label": "pirate/wikipedia-mirror",
+                                "group": 4,
+                                "parent": "tskiwix"
+                            },
+                            {
+                                "id": "rp19198",
+                                "label": "ArchiveBox/good-karma-kit",
+                                "group": 4,
+                                "parent": "tskiwix"
+                            }
+                        ],
+                        "parent": "pg25"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "pg29",
+                "label": "Low-code development platform",
+                "group": 1,
+                "children": [
+                    {
+                        "id": "tp5487",
+                        "label": "low-code-development-platform",
+                        "group": 2,
+                        "children": [
+                            {
+                                "id": "rp84505",
+                                "label": "n8n-io/n8n",
+                                "group": 4,
+                                "parent": "tp5487"
+                            },
+                            {
+                                "id": "rp15525",
+                                "label": "Budibase/budibase",
+                                "group": 4,
+                                "parent": "tp5487"
+                            },
+                            {
+                                "id": "rp105047",
+                                "label": "ToolJet/ToolJet",
+                                "group": 4,
+                                "parent": "tp5487"
+                            },
+                            {
+                                "id": "rp176319",
+                                "label": "baidu/amis",
+                                "group": 4,
+                                "parent": "tp5487"
+                            },
+                            {
+                                "id": "rp98738",
+                                "label": "MrXujiang/h5-Dooring",
+                                "group": 4,
+                                "parent": "tp5487"
+                            }
+                        ],
+                        "parent": "pg29"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "pg37",
+                "label": "Racket (programming language)",
+                "group": 1,
+                "children": [
+                    {
+                        "id": "tp2630",
+                        "label": "racket",
+                        "group": 2,
+                        "children": [],
+                        "parent": "pg37"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "pg39",
+                "label": "React Native",
+                "group": 1,
+                "children": [
+                    {
+                        "id": "tp111",
+                        "label": "react-native",
+                        "group": 2,
+                        "children": [],
+                        "parent": "pg39"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "pg41",
+                "label": "Scrum (software development)",
+                "group": 1,
+                "children": [
+                    {
+                        "id": "tsscrum",
+                        "label": "scrum",
+                        "group": 3,
+                        "children": [
+                            {
+                                "id": "rp35948",
+                                "label": "opf/openproject",
+                                "group": 4,
+                                "parent": "tsscrum"
+                            },
+                            {
+                                "id": "rp23050",
+                                "label": "gitscrum-team/laravel-gitscrum",
+                                "group": 4,
+                                "parent": "tsscrum"
+                            },
+                            {
+                                "id": "rp125957",
+                                "label": "Leantime/leantime",
+                                "group": 4,
+                                "parent": "tsscrum"
+                            },
+                            {
+                                "id": "rp136750",
+                                "label": "gopeak/masterlab",
+                                "group": 4,
+                                "parent": "tsscrum"
+                            },
+                            {
+                                "id": "rp70601",
+                                "label": "lorabv/awesome-agile",
+                                "group": 4,
+                                "parent": "tsscrum"
+                            }
+                        ],
+                        "parent": "pg41"
+                    }
+                ],
+                "parent": "0"
+            },
+            {
+                "id": "pg52",
+                "label": "Sourcetrail",
+                "group": 1,
+                "children": [],
+                "parent": "0"
+            }
+        ],
+        "cur": 1,
+        "parent": null
+    },
+    "description": "Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components. Software development involves writing and maintaining the source code, but in a broader sense, it includes all processes from the conception of the desired software through to the final manifestation of the software, typically in a planned and structured process. Software development also includes research, new development, prototyping, modification, reuse, re-engineering, maintenance, or any other activities that result in software products.\n",
+    "url": "https://en.wikipedia.org/wiki/Category:Software development"
+}
