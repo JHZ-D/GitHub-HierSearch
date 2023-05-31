@@ -35,9 +35,29 @@
 本文获取了相关仓库的topic。在183805个仓库中，有94617个仓库具有topic。利用这些具有topic的仓库的信息，本文使用共现关系（topic对在同一个仓库中共现的次数）和Leiden算法对topic进行层次聚类，包括如下步骤：
 
 1. 为了减少单个仓库对整体分析的影响，更好地体现topic的整体结构，对topic和topic对进行筛选，去除总出现次数不超过3的topic，对于仅在一个仓库中共同出现过的topic对，不计入它们的联系，即将它们的共现次数计为0，最后去除所有孤立的无共现topic的topic，得到17931个topic。
-2. 统计所有topic对的共现次数（对于两个topic t_a和t_b，它们的共现次数为同时含有t_a和t_b的仓库数量），构建topic的共现矩阵。
+2. 统计所有topic对的共现次数（对于两个topic $t_a$和$t_b$，它们的共现次数为同时含有$t_a$和$t_b$的仓库数量），构建topic的共现矩阵。
 3. 根据共现矩阵，使用python工具包NetworkX 建立topic共现关系图。
 4. 在topic共现关系图上调用python工具包leidenalg 的find_partition函数，该函数使用Leiden算法进行社区发现。
 5. 对于前一步所得的社区，在其上继续应用Leiden算法，划分出新的社区。
 6. 重复步骤5，直到所得的社区均不可被Leiden算法再分，完成topic的层次聚类过程。
 本文构建出的topic层次聚类中共有4450个底层topic社区，从顶层社区到低层社区的最长路径为8。本文将一个topic社区称为一个topic簇。对于网络中的一个节点，度中心性是它与其他节点的直接联系总数，对于带权图来说，节点的度中心性是节点连边的权重之和。度中心性常用于衡量网络中节点的重要性，度中心性越大的节点在网络中越重要。本文使用每个topic簇里度中心性最大的topic作为该topic簇的代表topic。对于一个GitHub仓库，若其含有某个底层topic簇内的一个topic，则称该仓库与该topic簇具有联系。
+
+以上层次聚类的相关代码位于HierGithub/Hierarchical-Clustering文件夹中。
+
+### Topic-Prediction
+
+仓库topic类别预测：
+
+由于GitHub仓库topic标注是由仓库作者自主进行的，具有随意性，且不是强制操作，因此有很大一部分GitHub仓库不含有topic。在本文选定的数据集中，有将近9万个仓库没有topic，然而本文的GitHub仓库学习与推荐需要建立GitHub社区的知识图谱，其中需要将仓库连接到层次聚类得到的topic簇。因此，对于对无topic的仓库，需要进行topic类别预测，为这些仓库补上仓库中隐含的topic。然而，topic类别过多，给topic类别预测带来困难，因此本文结合构建的topic层次聚类，使用层次分类方法，对于每个非叶子节点的topic簇构建一个基于BERT预训练模型的多标签分类器，最终得到仓库所连接的底层topic簇。
+
+主要目标是为不含topic的仓库寻找相联系的底层topic簇，即确定仓库所属的topic类别，每个仓库可能关联多个底层topic簇，本质上是一个多标签分类问题。由于底层topic簇数量巨大，多标签分类难以进行，本文采用层次分类方法，利用层次聚类的结果作为类别层次。
+
+由于底层topic簇数量过大，难以进行预测，本文的仓库topic类别预测基于GitHub提供的[featured topics](https://github.com/topics)进行。其中有个别topics在全GitHub上的仓库数量不足100个，样本数量过小，因此本文将它们剔除，最后剩余175个featured topics，后文所提到的featured topics均指剔除后的175个featured topics。本文在159个含featured topic的底层topic簇中为不含topic的仓库寻找关联的topic簇。
+
+topic层次聚类最终得到一棵topic簇树，本文抽取出由含有featured topic的topic簇构成的子树，并保留每个簇中的featured topic，从而得到了featured topics的层次聚类，作为仓库topic类别预测的类别层次。本文利用该类别层次，将一个159标签的多标签分类器拆分为74个标签数量较少的多标签分类器。为了促进数据的平衡性，加强多标签分类的效果，本文为每个featured topic采样了100个含有该topic的仓库，并按9:1的比例划分为训练集和测试集。预测模型训练的具体步骤如下：
+
+1. 对于featured topics的层次聚类树中每一个非叶子节点的topic簇，选取训练样本仓库中与该topic簇存在关联的仓库作为该topic簇分类器的训练样本。每个训练样本的数据输入为该仓库的描述文本(description+readme)，期望输出为该仓库在当前topic簇的子topic簇中实际存在关联的topic簇。
+2. 对于featured topics的层次聚类树中每一个非叶子节点的topic簇，假设当前topic簇将被分为$T_1…T_k$这k个子topic簇，在该topic簇的训练样本上训练一个k标签的多标签分类器。
+3. 每个多标签分类器的结构如下：将每个训练样本的描述文本输入分类器模型的BERT编码层，获得该描述文本的文档向量，该向量包含了该训练样本仓库描述文本的语义特征，将该向量输入模型的全连接层，最终通过Sigmoid层输出，得到该仓库每个可能标签的概率预测。
+
+训练完成后，对于不含topic的仓库，使用该预测模型进行topic簇预测。具体来说，将仓库的描述文本输入每个分类器，得到每个分类器上各个topic簇的概率输出。综合结果时，类别层次中根节点的概率为1，假设某topic簇节点的概率为p，该topic簇向下分为k个子topic簇，该topic簇分类器对于第i子topic簇的概率输出为$p_i (i=1,2,…,k)$，则第i个子topic簇的的概率为$p*p_i$，递归向下可以得到每个topic簇的概率。由此得到了仓库与每个底层topic簇相联系的概率，本文取其中概率最大的前三个topic簇，将仓库与它们相联系。
