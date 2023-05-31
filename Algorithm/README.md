@@ -1,0 +1,27 @@
+# 系统方法部分
+
+## Data-Preparing
+
+数据准备：
+
+通过层次地遍历[Wikipedia Software development](https://en.wikipedia.org/wiki/Category:Software_development)其下的各个子分类和子页面，本文获取了软件开发领域的各个知识条目，共有超过27000个知识条目。
+
+为了为软件开发初学者构建有助于软件开发学习的GitHub学习和检索系统，需要选取与软件开发有着较为紧密关联的GitHub仓库。本文从获取到的Wikipedia软件开发领域知识条目连接到的GitHub仓库出发，结合用户为仓库标星的行为，选择了与Wikipedia软件开发领域有着直接或间接关系的GitHub仓库。
+
+在获取的Wikipedia软件开发领域知识条目中，有部分包含开源代码的知识条目与GitHub仓库相关联，条目内容中包含指向GitHub仓库的链接。本文从Wikipedia页面的html源码中抽取指向GitHub仓库的链接，从而获取第一级与Wikipedia直接相连的GitHub仓库，共有2281个仓库。
+
+仅仅与Wikipedia直接相连的2281个GitHub仓库显然不足以代表GitHub的仓库资源，也无法为软件开发初学者构建起一个GitHub的学习和检索系统。本文从这2281个GitHub仓库出发，将仓库范围扩展到GitHub上与软件开发相关的，比较具有代表性的仓库。具体做法如下：
+1）通过GitHub REST API获取在GitHub上对star了这2281个仓库的所有用户。由此，本文获得了全部2281个仓库的220余万名标星用户。平均每个仓库有将近1000名标星用户，可知Wikipedia直接链接到的这些GitHub仓库流行度较高。这些用户对star了Wikipedia软件开发领域链接到的GitHub仓库，说明他们对软件开发有着一定的兴趣，他们的其他star仓库也可能与软件开发相关。
+2）在每个仓库的stargazer中，随机选取一名用户作为该仓库stargazer的代表，并爬取他的star仓库列表。由此本文获得了超过75万个GitHub仓库。
+3）目前获取的超过75万个GitHub仓库数量庞大，但在质量上较为参差不齐。为了提高GitHub学习检索系统的仓库质量，本文使用仓库star数对仓库进行筛选，只留下star数不少于150的仓库，共有超过18万个仓库。
+至此，本文成功获得了超过18万个与Wikipedia软件开发领域条目直接或间接相关的且认可度较高的GitHub仓库，以此作为本文将要实现的GitHub层次化学习和检索系统的基础。
+
+本文通过GitHub REST API获取了每个仓库的star数、仓库描述、Readme文件、topic。
+
+由于GitHub topic由用户自主添加，没有统一的规范，因此存在许多同义但形式上略有不同的topics，如“c++”与“cpp”。本文使用Stack Overflow提供的同义词集合 将同义的topic归为同一类，便于后续分析处理。
+
+以上数据准备的相关代码位于Data-Preparing文件夹中。
+
+## Hierarchical-Clustering
+
+层次聚类：
