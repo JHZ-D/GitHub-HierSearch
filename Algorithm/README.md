@@ -22,6 +22,22 @@
 
 以上数据准备的相关代码位于Data-Preparing文件夹中。
 
-## Hierarchical-Clustering
+## HierGithub
+
+构建Github topic层次结构：
+
+### Hierarchical-Clustering
 
 层次聚类：
+
+本文使用仓库的topic作为仓库的主要类别特征代表，对GitHub topic进行层次聚类，从而抽取出GitHub内部以topic簇为代表的层级结构。本文基于topic之间的共现关系，使用Leiden社区发现（community detection）算法对topic进行层次聚类。
+
+本文获取了相关仓库的topic。在183805个仓库中，有94617个仓库具有topic。利用这些具有topic的仓库的信息，本文使用共现关系（topic对在同一个仓库中共现的次数）和Leiden算法对topic进行层次聚类，包括如下步骤：
+
+1. 为了减少单个仓库对整体分析的影响，更好地体现topic的整体结构，对topic和topic对进行筛选，去除总出现次数不超过3的topic，对于仅在一个仓库中共同出现过的topic对，不计入它们的联系，即将它们的共现次数计为0，最后去除所有孤立的无共现topic的topic，得到17931个topic。
+2. 统计所有topic对的共现次数（对于两个topic t_a和t_b，它们的共现次数为同时含有t_a和t_b的仓库数量），构建topic的共现矩阵。
+3. 根据共现矩阵，使用python工具包NetworkX 建立topic共现关系图。
+4. 在topic共现关系图上调用python工具包leidenalg 的find_partition函数，该函数使用Leiden算法进行社区发现。
+5. 对于前一步所得的社区，在其上继续应用Leiden算法，划分出新的社区。
+6. 重复步骤5，直到所得的社区均不可被Leiden算法再分，完成topic的层次聚类过程。
+本文构建出的topic层次聚类中共有4450个底层topic社区，从顶层社区到低层社区的最长路径为8。本文将一个topic社区称为一个topic簇。对于网络中的一个节点，度中心性是它与其他节点的直接联系总数，对于带权图来说，节点的度中心性是节点连边的权重之和。度中心性常用于衡量网络中节点的重要性，度中心性越大的节点在网络中越重要。本文使用每个topic簇里度中心性最大的topic作为该topic簇的代表topic。对于一个GitHub仓库，若其含有某个底层topic簇内的一个topic，则称该仓库与该topic簇具有联系。
