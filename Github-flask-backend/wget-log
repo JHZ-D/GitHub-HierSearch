@@ -1,6 +1,0 @@
---2023-05-10 10:22:14--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/153697551/67202b0e-383e-4c92-90ea-057a5e9f4b5a?X-Amz-Algorithm=AWS4-HMAC-SHA256
-正在解析主机 objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.110.133, 185.199.108.133, 185.199.111.133, ...
-正在连接 objects.githubusercontent.com (objects.githubusercontent.com)|185.199.110.133|:443... 已连接。
-已发出 HTTP 请求，正在等待回应... 400 Bad Request
-2023-05-10 10:22:16 错误 400：Bad Request。
-
