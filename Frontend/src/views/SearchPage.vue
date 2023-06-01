@@ -16,7 +16,6 @@
             </n-space>
           </n-layout-header>
         </n-layout>
-          <!-- <n-layout-content class="headerasearch" style="background-color: rgba(144, 215, 236,0.7);"> -->
             <div id="search-container">
               <MultiSearchBread @receive="getMsg" :info="objArr"></MultiSearchBread>
               <div id="search-space">
@@ -33,19 +32,7 @@
                 </n-button>
               </div>
             </div>
-          <!-- </n-layout-content> -->
       </div>
-      <!-- <div class="card">
-        <n-card title="搜索结果" size="huge" style="background-color:rgba(255, 255, 255,0.2);">
-          <n-grid :x-gap="12" :y-gap="8" :cols="4">
-            <n-grid-item v-for="num in repodata.length" :key="num">
-              <a :href="'https://github.com/'+repodata[num - 1]" target="_blank">
-                <div :class="num % 2 === 0 ? 'light-green' : 'green'">{{ repodata[num - 1] }}</div>
-              </a>
-            </n-grid-item>
-          </n-grid>
-        </n-card>
-      </div> -->
   <n-data-table style="height: 500px; width: 1200px; margin: 50px auto; --td-padding: 10px; --th-padding: 11px" :columns="columns" :data="repodata" :pagination="pagination" flex-height><n-empty description="找不到符合条件的仓库！">
   </n-empty></n-data-table>
     </n-space>
@@ -65,12 +52,7 @@ import { Search, TrashOutline, Help as HelpIcon } from '@vicons/ionicons5'
 import { mapState, mapMutations } from 'vuex'
 import axios from 'axios'
 import MultiSearchBread from '../components/MultiSearchBread.vue'
-// import repodata from '@/assets/midrepos.json'
 
-// const tableData = Array.from(repodata).map((item, index) => ({
-//   key: index,
-//   reponame: item
-// }))
 const columns = [
   {
     title: 'Repository',
@@ -90,7 +72,6 @@ const columns = [
 export default defineComponent({
   components: {
     Search,
-    // MultilevelSelecter
     MultiSearchBread,
     HelpIcon
   },
@@ -132,8 +113,6 @@ export default defineComponent({
     const paginationReactive = reactive({
       page: 1,
       pageSize: 10,
-      // showSizePicker: true,
-      // pageSizes: [3, 5, 7],
       onChange: (page) => {
         paginationReactive.page = page
       },
@@ -160,13 +139,6 @@ export default defineComponent({
         .then(res => {
           this.repodata = res.data.repos
         })
-      // const paramObj = {
-      //   query: this.searchValue
-      // }
-      // const literalRes = await this.$http.post(this.loadUrl, paramObj)
-      // const literalData = literalRes.data.data
-      // this.literal_items = literalData
-      // this.messageBox.success('thread info list loaded', { duration: 500 })
     },
     onViewClick (item) {
       this.set_id(item.id)
@@ -242,15 +214,6 @@ export default defineComponent({
   justify-content: center;
 }
 
-/* #search-space {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-} */
-
 .search-page {
   /* background: url("../assets/backgd1.jpg"); */
   background-image: linear-gradient(white, #7bbfea);
@@ -260,13 +223,6 @@ export default defineComponent({
   background-size: cover;
   background-attachment:fixed;
 }
-
-/* .space-back {
-  background: url("../assets/backgd.jpg");
-  background-size: cover;
-  background-attachment:fixed;
-  margin-bottom: 0;
-} */
 
 .headerasearch {
   background-color:rgba(220,38,38,0.2);

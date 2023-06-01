@@ -2,7 +2,6 @@
     <div style="padding: auto">
     <n-breadcrumb class="breadcrumb">
       <n-breadcrumb-item class="breadcrumbitem" v-for="num in chooseArray.length" :key="num">
-        <!-- {{ objArr[num-1] }} -->
         <n-dropdown v-bind:options="chooseArray[num-1]" @select="updateObjArr($event, num)" style="height: 40px;">
           <div class="trigger"  v-text="noNext || num < chooseArray.length?objArr[num - 1]:'选择topic'">
           </div>
@@ -45,14 +44,14 @@ export default defineComponent({
       this.$emit('receive', sendData)
     },
     chooseChildrenArr (val) {
-      // 每次重新点击下拉框都要清楚，后续下拉框的值，重新为其赋值
+      // 每次重新点击下拉框都要清除，后续下拉框的值，重新为其赋值
       if (val.childrens.length > 0) { // 如果选中的元素，其有子元素，那么保留下一级的下拉框
         // this.obj = {}
         this.chooseArray[val.level + 1] = val.childrens
         this.chooseArray.splice(val.level + 2)
         this.objArr.splice(val.level + 1)
         this.noNext = 0
-      } else { // 如果选中的元素，没有子元素，那么只保留切换的下拉框，清楚其以下的所有下拉框
+      } else { // 如果选中的元素，没有子元素，那么只保留切换的下拉框，清除其以下的所有下拉框
         this.chooseArray.splice(val.level + 1)
         this.objArr.splice(val.level + 1)
         this.noNext = 1
@@ -74,10 +73,9 @@ export default defineComponent({
       const chosenArray = curArray.find(o => o.label === this.objArr[i])
       const val = chosenArray
       if (val.childrens.length > 0) { // 如果选中的元素，其有子元素，那么保留下一级的下拉框
-        // this.obj = {}
         this.chooseArray[val.level + 1] = val.childrens
         this.noNext = 0
-      } else { // 如果选中的元素，没有子元素，那么只保留切换的下拉框，清楚其以下的所有下拉框
+      } else { // 如果选中的元素，没有子元素，那么只保留切换的下拉框，清除其以下的所有下拉框
         this.chooseArray.splice(val.level + 1)
         this.noNext = 1
       }
@@ -97,26 +95,6 @@ export default defineComponent({
   },
   setup () {
     return {
-      options1: [
-        {
-          label: 'David Tao',
-          key: 1
-        },
-        {
-          label: '黑色柳丁',
-          key: 2
-        }
-      ],
-      options2: [
-        {
-          label: '小镇姑娘',
-          key: 1
-        },
-        {
-          label: '普通朋友',
-          key: 2
-        }
-      ]
     }
   }
 })
