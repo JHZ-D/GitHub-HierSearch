@@ -1,0 +1,9 @@
+python run_bert.py --do_data --data_name 3
+python run_bert.py --do_train --save_best --do_lower_case --epochs 8 --train_batch_size 16 --eval_batch_size 16 --train_max_seq_len 512 --eval_max_seq_len 512 --data_name 3
+python run_bert.py --do_test --do_lower_case --data_name 3
+
+python run_bert.py --do_train --save_best --do_lower_case --epochs 8 --train_batch_size 16 --eval_batch_size 16 --train_max_seq_len 512 --eval_max_seq_len 512 --data_name 3 --resume_path pybert/output/checkpoints/3/bert --n_gpu 1
+python run_bert.py --do_train --save_best --do_lower_case --epochs 8 --train_batch_size 16 --eval_batch_size 16 --train_max_seq_len 512 --eval_max_seq_len 512 --data_name 71 --n_gpu 1
+python run_bert.py --do_train --save_best --do_lower_case --epochs 8 --train_batch_size 16 --eval_batch_size 16 --train_max_seq_len 512 --eval_max_seq_len 512 --data_name 70 --n_gpu 1
+python run_bert.py --do_train --save_best --do_lower_case --epochs 20 --train_batch_size 16 --eval_batch_size 16 --train_max_seq_len 512 --eval_max_seq_len 512 --data_name 69 --n_gpu 1
+python run_bert.py --do_train --save_best --do_lower_case --epochs 20 --train_batch_size 16 --eval_batch_size 16 --train_max_seq_len 512 --eval_max_seq_len 512 --data_name 73 --n_gpu 1
