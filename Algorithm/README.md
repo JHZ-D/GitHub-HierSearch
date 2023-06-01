@@ -57,10 +57,10 @@
 topic层次聚类最终得到一棵topic簇树，本文抽取出由含有featured topic的topic簇构成的子树，并保留每个簇中的featured topic，从而得到了featured topics的层次聚类，作为仓库topic类别预测的类别层次。本文利用该类别层次，将一个159标签的多标签分类器拆分为74个标签数量较少的多标签分类器。为了促进数据的平衡性，加强多标签分类的效果，本文为每个featured topic采样了100个含有该topic的仓库，并按9:1的比例划分为训练集和测试集。预测模型训练的具体步骤如下：
 
 1. 对于featured topics的层次聚类树中每一个非叶子节点的topic簇，选取训练样本仓库中与该topic簇存在关联的仓库作为该topic簇分类器的训练样本。每个训练样本的数据输入为该仓库的描述文本(description+readme)，期望输出为该仓库在当前topic簇的子topic簇中实际存在关联的topic簇。
-2. 对于featured topics的层次聚类树中每一个非叶子节点的topic簇，假设当前topic簇将被分为$T_1…T_k$这k个子topic簇，在该topic簇的训练样本上训练一个k标签的多标签分类器。
+2. 对于featured topics的层次聚类树中每一个非叶子节点的topic簇，假设当前topic簇将被分为 $T_1…T_k$ 这k个子topic簇，在该topic簇的训练样本上训练一个k标签的多标签分类器。
 3. 每个多标签分类器的结构如下：将每个训练样本的描述文本输入分类器模型的BERT编码层，获得该描述文本的文档向量，该向量包含了该训练样本仓库描述文本的语义特征，将该向量输入模型的全连接层，最终通过Sigmoid层输出，得到该仓库每个可能标签的概率预测。
 
-训练完成后，对于不含topic的仓库，使用该预测模型进行topic簇预测。具体来说，将仓库的描述文本输入每个分类器，得到每个分类器上各个topic簇的概率输出。综合结果时，类别层次中根节点的概率为1，假设某topic簇节点的概率为p，该topic簇向下分为k个子topic簇，该topic簇分类器对于第i子topic簇的概率输出为$p_i (i=1,2,…,k)$，则第i个子topic簇的的概率为$p*p_i$，递归向下可以得到每个topic簇的概率。由此得到了仓库与每个底层topic簇相联系的概率，本文取其中概率最大的前三个topic簇，将仓库与它们相联系。
+训练完成后，对于不含topic的仓库，使用该预测模型进行topic簇预测。具体来说，将仓库的描述文本输入每个分类器，得到每个分类器上各个topic簇的概率输出。综合结果时，类别层次中根节点的概率为1，假设某topic簇节点的概率为p，该topic簇向下分为k个子topic簇，该topic簇分类器对于第i子topic簇的概率输出为 $p_i (i=1,2,…,k)$ ，则第i个子topic簇的的概率为 $p*p_i$ ，递归向下可以得到每个topic簇的概率。由此得到了仓库与每个底层topic簇相联系的概率，本文取其中概率最大的前三个topic簇，将仓库与它们相联系。
 
 以上仓库topic类别预测的相关代码位于HierGithub/Topic-Prediction文件夹中。
 
@@ -72,7 +72,7 @@ topic层次聚类最终得到一棵topic簇树，本文抽取出由含有feature
 
 Wikipedia软件开发领域层级知识树构建后，需要与GitHub层级结构进行连接，从而对Wikipedia软件开发领域层级知识树进行扩展，构成完整的GitHub软件开发知识图谱。
 
-本文设计的Wikipedia软件开发领域层级知识树与GitHub层级结构的连接方法如下：将Wikipedia软件开发领域层级知识树的叶子节点与本文所涉及的GitHub topics进行文本匹配，假如一个叶子节点在GitHub topics中有匹配topic，说明该叶子节点的知识有在GitHub上继续延伸的可能。假如一个Wikipedia软件开发领域层级知识树的叶子节点E在GitHub topics中与topic T相匹配，则在topic层次聚类结果中寻找以topic T为代表topic的topic簇。Topic T在topic簇中是代表topic，即topic T在该topic簇中的度中心性最大，假如将该topic簇看作一个知识点，则该知识点的内容是围绕topic T展开的。假如topic T是topic簇$C_1,C_2,…,C_n$的代表topic，$C_1,C_2,…,C_n$之间应当存在层次关系。选择$C_1,C_2,…,C_n$中层次最高的topic簇$C_k$，将E与$C_k$连接。
+本文设计的Wikipedia软件开发领域层级知识树与GitHub层级结构的连接方法如下：将Wikipedia软件开发领域层级知识树的叶子节点与本文所涉及的GitHub topics进行文本匹配，假如一个叶子节点在GitHub topics中有匹配topic，说明该叶子节点的知识有在GitHub上继续延伸的可能。假如一个Wikipedia软件开发领域层级知识树的叶子节点E在GitHub topics中与topic T相匹配，则在topic层次聚类结果中寻找以topic T为代表topic的topic簇。Topic T在topic簇中是代表topic，即topic T在该topic簇中的度中心性最大，假如将该topic簇看作一个知识点，则该知识点的内容是围绕topic T展开的。假如topic T是topic簇 $C_1,C_2,…,C_n$ 的代表topic， $C_1,C_2,…,C_n$ 之间应当存在层次关系。选择 $C_1,C_2,…,C_n$ 中层次最高的topic簇 $C_k$ ，将E与 $C_k$ 连接。
 
 通过上述连接，topic层次聚类获得的topic簇中，仅有9个topic簇无法连接到Wikipedia软件开发领域层级知识树，它们均为topic层次聚类中第一次对topic运用社区发现所获得的topic社区，且规模小，无法再分为更小的社区，因此无子topic簇。本文将这9个topic簇连接到Wikipedia软件开发领域层级知识树的根节点，从而将所有topic簇都与Wikipedia软件开发领域层级知识树建立了联系。
 
